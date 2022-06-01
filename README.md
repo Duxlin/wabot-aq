@@ -1,4 +1,4 @@
-# wabot-aq
+# kanambo-1
 
 Simple WhatsApp Bot
 
@@ -12,8 +12,8 @@ apt install git -y
 apt install nodejs -y
 apt install ffmpeg -y
 apt install imagemagick -y
-git clone https://github.com/Nurutomo/wabot-aq
-cd wabot-aq
+git clone https://github.com/Kanambp/kanambo-1
+cd kanambo-1
 npm install
 npm update
 ```
