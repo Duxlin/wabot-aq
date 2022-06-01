@@ -31,16 +31,16 @@ let tags = {
 const defaultMenu = {
   before: `
 ╭─「 %me 」
-│ Hai, %name!
+│ Hello how can i help you, %name!
 │
-│ Tersisa *%limit Limit*
+│ Left *%limit Limit*
 │ Role *%role*
 │ Level *%level (%exp / %maxexp)* [%xp4levelup lagi untuk levelup]
 │ %totalexp XP in Total
 │ 
-│ Tanggal: *%week %weton, %date*
-│ Tanggal Islam: *%dateIslamic*
-│ Waktu: *%time*
+│ Date: *%week %weton, %date*
+│ Date Islam: *%dateIslamic*
+│ Time: *%time*
 │
 │ Uptime: *%uptime (%muptime)*
 │ Database: %rtotalreg of %totalreg
@@ -49,7 +49,7 @@ const defaultMenu = {
 ╰────
 %readmore`.trimStart(),
   header: '╭─「 %category 」',
-  body: '│ • %cmd %islimit %isPremium',
+  body: '🌹 • %cmd %islimit %isPremium',
   footer: '╰────\n',
   after: `
 *%npmname@^%version*
